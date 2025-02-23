@@ -15,3 +15,5 @@ A proposta da atividade foi criar uma página em HTML5 que contenha:
 - Formulário
 - Botão
 - Rodapé
+
+### Me desafiei e fui um pouco além, estilizando com CSS3.
