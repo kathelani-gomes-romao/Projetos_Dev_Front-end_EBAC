@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style-contato.css"/>
+
+    <title>Contato</title>
+</head>
+<body>
+    <header class="header-content">
+        <a href="index.html"><h1>Os Malaquias</h1></a>
+        <nav class="nav-content">
+            <ul>
+                <li><a href="autora.html">A autora</a></li>
+                <li><a href="cenario.html">Cenário</a></li>
+                <li><a href="universo_livro.html">Universo do livro</a></li>
+                <li><a href="mesma_estante.html">Da mesma estante</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>            
+        </nav>
+    </header>
+
+    <main>
+    <section class="section_container">    
+    <h1 class="title">Contato</h1>    
+    <form action="" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="e-mail" name="e-mail" required>
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+                <option value="duvidas">Dúvidas</option>
+                <option value="sugestoes">Sugestões</option>
+        </select>
+        
+        <label for="msg">Mensagem:</label>
+        <textarea id="mgs" name="message" cols="50" rows="8"></textarea>          
+        <button type="submit">Enviar</button>            
+    </form>        
+    </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Todos os direitos reservados - Tag Livros</p>      
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+.header-content{
+    font-family: 'Lucida Sans', sans-serif;      
+    display: inline-flex;
+    margin: 1rem 17rem 3rem 17rem;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: #f487a5; 
+}
+
+.header-content h1 {
+ padding: 0 3rem;
+}
+
+.nav-content ul li {
+    display: inline-flex;
+    padding: 1rem 3rem;
+}
+
+h1, h3 {
+    column-span: all;
+}
+
+.article { 
+    width: 70%;
+    margin: auto; 
+    padding-bottom: 6rem;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: bold;
+}
+
+.article-title-subtitle {
+    column-count: 3;
+    column-gap: 5rem;   
+    width: 75%;
+    margin: auto;
+    text-align: justify; 
+    padding-bottom: 6rem;
+    column-span: all;
+}
+
+.article ul {
+    display: grid;
+    grid-template-columns: repeat(3, 275px);
+    grid-gap: 13rem;     
+}
+
+i {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #f487a5;
+}
+
+.article p {
+    line-height: 1.3;
+    font-size: 1rem;
+    font-family: 'Times', serif;
+    font-weight: 400;
+    text-align: justify;
+    color: #000;
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;    
+}
+
+.article h1{
+   font-family: 'Lucida Sans', sans-serif; 
+   font-size: 3rem;
+   color: #00a4b8;
+}
+
+.article h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #00a4b8;
+    margin-top: 7rem;
+    margin-bottom: auto;
+}
+
+.article h2 {
+    font-size: 1.5rem;
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+    color: #00a4b8;
+    margin-top: 0.2rem;
+    padding: 0 10rem 3rem;
+}
+
+.article h4 {
+    font-size: 0.9rem;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #f487a5;   
+    margin-bottom: auto;
+}
+
+.article h5 {
+    font-size: 1rem;
+    color: #f487a5;    
+    margin-top: 0.1rem;
+    margin-bottom: auto;
+}
+
+li {
+    display: grid;
+    align-items: end;
+}
+
+.article img {
+    height: 12rem;
+}
+
+.article h6 {
+    font-size: 1.1rem;
+    font-family: 'Times', serif;
+    font-weight: bold;
+    color: #000;
+    margin-top: 0.1rem;
+    margin-bottom: auto;
+}
+
+.line {
+    border-bottom: 0px solid #000;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 3rem 5rem 0 5rem;
+}
+
+footer p{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}

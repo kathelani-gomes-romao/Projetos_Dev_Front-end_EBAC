@@ -1,0 +1,70 @@
+.header-content{
+    font-family: 'Lucida Sans', sans-serif;      
+    display: inline-flex;
+    margin: 1rem 17rem 3rem 17rem;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: #f487a5; 
+}
+
+.header-content h1 {
+ padding: 0 3rem;
+}
+
+
+.nav-content ul li {
+    display: inline-flex;
+    padding: 1rem 3rem;
+}
+
+h1, h3 {
+    column-span: all;
+}
+
+.article p {
+    line-height: 1.3;
+}
+
+.article h1{
+   font-family: 'Lucida Sans', sans-serif; 
+   font-size: 3rem;
+   color: #00a4b8;
+}
+
+.article h3{
+    font-size: 2rem;
+    font-style: italic;
+    color: #00a4b8;
+ }
+
+.article {
+    column-count: 3;
+    column-gap: 5rem;   
+    width: 75%;
+    margin: auto;
+    text-align: justify; 
+    padding-bottom: 6rem;
+}
+
+.article img {
+    height: 37rem;
+}
+
+.quote {
+    font-size: 3.2rem;
+    color: #00a4b8;
+    font-weight: bold;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 3rem 5rem 0 5rem;
+}
+
+footer p{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}

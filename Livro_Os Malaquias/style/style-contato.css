@@ -1,0 +1,89 @@
+.header-content{
+    font-family: 'Lucida Sans', sans-serif;      
+    display: inline-flex;
+    margin: 1rem 17rem 3rem 17rem;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: #f487a5; 
+}
+
+.header-content h1 {
+ padding: 0 3rem;
+}
+
+
+.nav-content ul li {
+    display: inline-flex;
+    padding: 1rem 3rem;
+}
+
+.section_container {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.title {
+    font-family: 'Lucida Sans', sans-serif; 
+    font-size: 3rem;
+    color: #00a4b8;
+}
+
+form {
+    color: #00a4b8;
+    display: grid;
+    width: 40%;
+    margin: auto; 
+    border: 1px solid;
+    padding: 7% 6%;
+    margin-top: 8%;
+}
+
+label {
+    font-family: 'Lucida Sans', sans-serif;
+    color: #00a4b8;
+    font-weight: bold;
+    padding: 2rem 0 0.5rem 0;
+}
+
+input,
+select {
+  border-color:#00a4b8;
+  border-style: solid;
+  border-width: thin;
+  height: 2rem;
+}
+
+textarea {
+    border-color:#00a4b8;
+    border-style: solid;
+    border-width: thin;    
+}
+
+
+button {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1rem;
+    color: #00a4b8;
+    border-color:#00a4b8;
+    border-style: solid;
+    border-width: thin;
+    background-color: #fff;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    width: max-content;
+    padding: 10px 20px;    
+}
+
+
+footer {
+    text-align: center;
+    padding: 3rem 5rem 0 5rem;
+}
+
+footer p{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
