@@ -16,4 +16,4 @@ A proposta da atividade foi criar uma página em HTML5 que contenha:
 - Botão
 - Rodapé
 
-### Me desafiei e fui um pouco além, estilizando com CSS3.
+***_Nota:_*** _Além do HTML5 me desafiei e fui um pouco além, estilizando com CSS3._
